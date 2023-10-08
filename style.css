@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Martian+Mono:wght@200;400;500;600;700&family=Poppins:wght@200;300;400;600&display=swap");
+
+* {
+  text-align: center;
+  font-family: "Martian Mono", serif;
+}
+
+h1 {
+  margin: 0.5rem;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+h2 {
+  font-weight: 400;
+  margin: 0.5rem;
+}
+
+img {
+  width: 60%;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+span {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+button {
+  padding: 1rem;
+  border: 0;
+  border-radius: 5rem;
+  font-size: 20px;
+  height: 65px;
+  cursor: pointer;
+}
+
+.menu {
+  margin: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.total {
+    font-size: 35px;
+    font-weight: 500;
+    margin: 0;
+}
+
+#totalAmount {
+    font-size: 35px;
+    font-weight: 300;
+}

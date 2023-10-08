@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Count de Money</title>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <br></br>
+    <h1>Count de Money</h1>
+    <h2>A simple coin calculator!</h2>
+
+    <div class="menu">
+        <div class="coin" data-coin="penny">
+            <img src="coins/penny.png" alt="Penny">
+            <div class="buttons">
+                <button class="decrease">-</button>
+                <p>0</p>
+                <button class="increase">+</button>
+            </div>
+            <p class="balance">Penny: <span>$0.00</span></p>
+        </div>
+
+        <div class="coin" data-coin="nickel">
+            <img src="coins/nickel.png" alt="Nickel">
+            <div class="buttons">
+                <button class="decrease">-</button>
+                <p>0</p>
+                <button class="increase">+</button>
+            </div>
+            <p class="balance">Nickel: <span>$0.00</span></p>
+        </div>
+
+        <div class="coin" data-coin="dime">
+            <img src="coins/dime.png" alt="Dime">
+            <div class="buttons">
+                <button class="decrease">-</button>
+                <p>0</p>
+                <button class="increase">+</button>
+            </div>
+            <p class="balance">Dime: <span>$0.00</span></p>
+        </div>
+
+        <div class="coin" data-coin="quarter">
+            <img src="coins/quarter.png" alt="Quarter">
+            <div class="buttons">
+                <button class="decrease">-</button>
+                <p>0</p>
+                <button class="increase">+</button>
+            </div>
+            <p class="balance">Quarter: <span>$0.00</span></p>
+        </div>
+    </div>
+
+    <br></br>
+    <h1 class="total">Total: <span id="totalAmount">$0.00</span></h1>
+</body>
+</html>
